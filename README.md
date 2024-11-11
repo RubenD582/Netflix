@@ -2,16 +2,27 @@
 
 A Netflix clone made with Flutter and Python using TMDB(The Moive Database) to display all the latest and most popular movies.
 
-## Create an API key
+## Step 1: Create a TMDB API Key
 
-Go to `https://www.themoviedb.org` and create a new API key
+1. Go to https://www.themoviedb.org and log in or sign up.
+2. Create a new API key by navigating to your profile settings and selecting API.
+3. Follow the steps to request an API key. Copy the key provided, as you'll need it in the next step.
 
-## Setup .env file
+## Step 2: Set Up the .env File
 
-In the root directory navigate to `cd api` and type the following command `cp .env.example .env` and paste your API in the env file.
+1. Navigate to the api directory `cd api`
+2. Create a `.env` file by copying the .env.example file `cp .env.example .env`
+3. Open the `.env` file and paste your TMDB API key here `API_KEY="your_tmdb_api_key_here"`
 
 
-## How to run
+## Step 3: Run the Project
 
-1. Run the python server by using the following commands in the root directory `cd api`, `python main.py`.
-2. Run the flutter project by using the following commands in the root directory `cd app`, `flutter run`
+Run the python server
+
+1. `cd api`
+2. `python main.py`
+
+Run the flutter app
+
+1. `cd app`
+2. `flutter run`
