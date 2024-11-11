@@ -17,12 +17,12 @@ A Netflix clone made with Flutter and Python using TMDB(The Moive Database) to d
 
 ## Step 3: Run the Project
 
-Run the python server
+Run the python server (In the root directory)
 
 1. `cd api`
 2. `python main.py`
 
-Run the flutter app
+Run the flutter app (In the root directory)
 
 1. `cd app`
 2. `flutter run`
