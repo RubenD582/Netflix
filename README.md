@@ -10,7 +10,7 @@ A Netflix clone made with Flutter and Python using TMDB(The Moive Database) to d
 
 ## Step 2: Set Up the .env File
 
-1. Navigate to the api directory `cd api`
+1. In the root directory, Navigate to the api directory `cd api`
 2. Create a `.env` file by copying the .env.example file `cp .env.example .env`
 3. Open the `.env` file and paste your TMDB API key here `API_KEY="your_tmdb_api_key_here"`
 
