@@ -2,6 +2,10 @@ import requests
 import random
 import concurrent.futures
 from flask import Flask, jsonify, request
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 app = Flask(__name__)
 
@@ -12,7 +16,7 @@ genre_mapping = {
     10770: 'TV Movie', 53: 'Thriller', 10752: 'War', 37: 'Western'
 }
 
-API_KEY = "d5fc1ce48a17fd2e72e4c9f6ba4bc4c2"
+API_KEY = os.getenv("API_KEY")
 
 def get_shows(url, isRandom=False):
     response = requests.get(url)
